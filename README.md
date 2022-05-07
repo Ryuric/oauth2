@@ -16,10 +16,7 @@ This method usually have the following actors:
 - Authorization server: The server issuing access token to the client after successfully authenticating the resource owner and obtaining authorization.
 - Resource server: The resource server is the oauth2 term for your api server. The resource server handles authenticated requests after the application has obtained an access token.
 
-In case of client credentials grant type the user has no role to play. As previously stated it is machine to machine communication. This is typically used by clients to acccess resource about themselves rather than to access a user's resource. 
-
-
-
+In case of client credentials grant type the user has no role to play. As previously stated it is machine to machine communication. This is typically used by clients to acccess resource about themselves rather than to access a user's resource.
                                ____ _____ 
          5. if token is valid |          |
      return requested resource| Resource |
